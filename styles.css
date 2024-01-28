@@ -77,25 +77,6 @@
 }
 
 .drawing-container img {
-   max-width: 30%;
+   max-width: 60%;
    height: auto;
 }
-
-#full-drawing-modal {
-   display: none;
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 30%;
-   height: 30%;
-   background: rgba(0, 0, 0, 0.8);
-   justify-content: center;
-   align-items: center;
-}
-
-#full-drawing-image {
-   max-width: 80%;
-   max-height: 80%;
-}
-
-/* Add more styles as needed */
