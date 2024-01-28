@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+    <title>drow ford</title>
+    
+</head>
+<body>
+
+    <header>
+        <img src="fd kogo.svg" alt="Logo">
+        <div>
+            <a href="#">
+                <i class="fas fa-house"></i>
+            </a>
+            
+        </div>
+        <div>
+            <a href="#">
+                <i class="fa-solid fa-photo-film"></i>
+            </a>
+            
+        </div>
+        <div>
+            <a href="#" id="search-icon">
+                <i class="fa-brands fa-product-hunt"></i>
+            </a>
+           
+        </div>
+        <div>
+            <a href="#">
+                <i class="fa-solid fa-address-book"></i>
+            </a>
+            
+        </div>
+        
+    </header>
+    
+
+
+    <section id="poster-section">
+        
+        <img src="poster.jpg" alt="Poster Image">
+        
+    </section>
+    <section id="drawing-section">
+        <!-- Container for drawing content -->
+        <div class="drawing-container" onclick="showFullDrawing('drawing1.jpg')">
+            <img src="book1.png" alt="Drawing 1">
+            <p>Drawing Title 1</p>
+        </div>
+
+        <div class="drawing-container" onclick="showFullDrawing('drawing2.jpg')">
+            <img src="book2.png" alt="Drawing 2">
+            <p>Drawing Title 2</p>
+        </div>
+
+        <!-- Add more drawing containers as needed -->
+
+        <!-- Full drawing display modal -->
+        <div id="full-drawing-modal" onclick="closeFullDrawingModal()">
+            <img id="full-drawing-image" src="" alt="Full Drawing">
+        </div>
+    </section>
+
+    <!-- Your existing scripts and styles -->
+    <script defer src="script.js"></script>
+</body>
+</html>
